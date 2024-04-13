@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import { Icon } from 'react-icons-kit';
 import { check } from 'react-icons-kit/feather/check';
 import { ic_keyboard_arrow_right } from 'react-icons-kit/md/ic_keyboard_arrow_right';
@@ -21,11 +20,11 @@ const AnalyticsTool = () => {
     <Section bgImage={parallaxBg?.src} bgImageAlt="the cat" strength={200}>
       <Container width="1400px">
         <Grid>
-          <Fade up>
+          <div>
             <Figure style={{minWidth: 'auto', maxWidth: '600px'}}>
               <NextImage src={analytics} alt="analytics" />
             </Figure>
-          </Fade>
+          </div>
           <Content>
             <Text className="subtitle" content={analyticsTool.slogan} />
             <Heading content={analyticsTool.title} />

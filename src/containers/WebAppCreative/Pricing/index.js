@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
-import { Icon } from 'react-icons-kit';
-import Fade from 'react-reveal/Fade';
-import { ic_keyboard_arrow_right } from 'react-icons-kit/md/ic_keyboard_arrow_right';
+import React from 'react';
 
 import Container from 'common/components/UI/Container';
 import Heading from 'common/components/Heading';
@@ -30,7 +27,7 @@ const Pricing = () => {
 
         <Grid>
           {pricing.map((priceTable) => (
-            <Fade key={priceTable.id} up delay={priceTable.id * 100}>
+            <div key={priceTable.id}>
               <PriceTable
                 className={
                   priceTable.isActive
@@ -50,7 +47,7 @@ const Pricing = () => {
                   <Button title={priceTable.button.label} />
                 </Link>
               </PriceTable>
-            </Fade>
+            </div>
           ))}
         </Grid>
       </Container>
