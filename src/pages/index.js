@@ -23,17 +23,18 @@ const webAppCreative = () => {
             <Fragment>
                 <Head>
                     <title>Payments - Pagamentos Mpesa para Shopify</title>
-                    <meta name="Description" content="Integre pagamentos Mpesa na sua loja Shopify" />
-                    <meta name="theme-color" content="#4fc28c" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <meta name="Description" content="Integre pagamentos Mpesa na sua loja Shopify"/>
+                    <meta name="theme-color" content="#4fc28c"/>
+                    <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500;700;800&display=swap"
                     />
                 </Head>
 
-                <ResetCSS />
-                <GlobalStyle />
+                <ResetCSS/>
+                <GlobalStyle/>
 
                 <ContentWrapper>
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
