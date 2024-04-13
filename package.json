@@ -12,7 +12,6 @@
     "@styled-system/theme-get": "^5.1.2",
     "animate.css": "^4.1.1",
     "next": "^12.3.1",
-    "next-compose-plugins": "^2.2.1",
     "next-fonts": "1.5.1",
     "next-optimized-images": "^2.6.2",
     "polished": "^4.2.2",
