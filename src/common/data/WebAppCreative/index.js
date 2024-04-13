@@ -6,7 +6,6 @@ import slack from 'common/assets/image/webAppCreative/clients/slack.png';
 import usaToday from 'common/assets/image/webAppCreative/clients/usa-today.png';
 import icon1 from 'common/assets/image/webAppCreative/icons/1.png';
 import icon2 from 'common/assets/image/webAppCreative/icons/2.png';
-import icon3 from 'common/assets/image/webAppCreative/icons/3.png';
 import icon4 from 'common/assets/image/webAppCreative/icons/4.png';
 import icon5 from 'common/assets/image/webAppCreative/icons/5.png';
 import icon6 from 'common/assets/image/webAppCreative/icons/6.png';
@@ -37,7 +36,6 @@ import siteLogo from 'common/assets/image/webAppCreative/logo.svg';
 import facebook from 'common/assets/image/webAppCreative/icons/facebook.png';
 import twitter from 'common/assets/image/webAppCreative/icons/twitter.png';
 import dribbble from 'common/assets/image/webAppCreative/icons/dribbble.png';
-import {encodeText} from "next/dist/server/node-web-streams-helper";
 
 export const menu_items = [
   {
@@ -296,7 +294,7 @@ export const pricing = [
     icon: donut,
     button: {
       label: '6 Meses de Serviço',
-      link: `https://wa.me/+351915071158?text=${encodeText('Saudações, gostaria de obter o pacote premium.')}`
+      link: `https://wa.me/+351915071158?text=${encodeURI('Saudações, gostaria de obter o pacote premium.')}`
     },
   },
   {
@@ -309,7 +307,7 @@ export const pricing = [
     icon: pizza,
     button: {
       label: '1 Ano de Serviço',
-      link: `https://wa.me/+351915071158?text=${encodeText('Saudações, gostaria de obter o pacote empresarial.')}`
+      link: `https://wa.me/+351915071158?text=${encodeURI('Saudações, gostaria de obter o pacote empresarial.')}`
     },
   },
 ];
