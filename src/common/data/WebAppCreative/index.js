@@ -273,7 +273,7 @@ export const appIntegration = {
 export const pricing = [
   {
     id: 1,
-    price: 450,
+    price: 850,
     currencySymbol: 'MT',
     isActive: false,
     title: 'Pacote Básico',
@@ -286,7 +286,7 @@ export const pricing = [
   },
   {
     id: 2,
-    price: 2700,
+    price: 4800,
     currencySymbol: 'MZN',
     isActive: true,
     title: 'Pacote Premium',
@@ -299,7 +299,7 @@ export const pricing = [
   },
   {
     id: 3,
-    price: 5400,
+    price: 10000,
     currencySymbol: 'MT',
     isActive: false,
     title: 'Pacote Empresarial',
