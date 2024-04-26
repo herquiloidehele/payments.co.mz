@@ -273,7 +273,7 @@ export const appIntegration = {
 export const pricing = [
   {
     id: 1,
-    price: 850,
+    price: 1000,
     currencySymbol: 'MT',
     isActive: false,
     title: 'Pacote Básico',
@@ -281,12 +281,12 @@ export const pricing = [
     icon: icecream,
     button: {
       label: '1 Mês de Serviço',
-      link: `https://wa.me/+351915071158?text=${encodeURI('Saudações, gostaria de obter o pacote básico.')}`,
+      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote básico.')}`,
     },
   },
   {
     id: 2,
-    price: 4800,
+    price: 6000,
     currencySymbol: 'MZN',
     isActive: true,
     title: 'Pacote Premium',
@@ -294,12 +294,12 @@ export const pricing = [
     icon: donut,
     button: {
       label: '6 Meses de Serviço',
-      link: `https://wa.me/+351915071158?text=${encodeURI('Saudações, gostaria de obter o pacote premium.')}`
+      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote premium.')}`
     },
   },
   {
     id: 3,
-    price: 10000,
+    price: 12000,
     currencySymbol: 'MT',
     isActive: false,
     title: 'Pacote Empresarial',
@@ -307,7 +307,7 @@ export const pricing = [
     icon: pizza,
     button: {
       label: '1 Ano de Serviço',
-      link: `https://wa.me/+351915071158?text=${encodeURI('Saudações, gostaria de obter o pacote empresarial.')}`
+      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote empresarial.')}`
     },
   },
 ];

@@ -18,7 +18,7 @@ const CallToAction = () => {
           <Heading content="Comece a receber pagamentos M-pesa Agora" />
           <Text content="Entre em contacto com a nossa equipa e saiba mais sobre o processo de integração do Mpesa na sua loja." />
 
-          <ContactButton target={'_blank'} href="https://wa.me/+351915071158">
+          <ContactButton target={'_blank'} href="https://wa.me/+258847005571">
               Contacte-nos Agora
           </ContactButton>
         </Content>
