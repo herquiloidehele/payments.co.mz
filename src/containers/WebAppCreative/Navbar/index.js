@@ -44,7 +44,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={menu_items}
               offset={-70}
             />
-            <Link target={'_blank'} href="https://wa.me/+258847005571">
+            <Link target={'_blank'} href="https://wa.me/+258863306137">
               <div className="navbar_button navbar_button_two">
                 <Button {...button} title="Contacte-nos" />
               </div>

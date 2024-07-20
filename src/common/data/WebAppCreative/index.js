@@ -281,7 +281,7 @@ export const pricing = [
     icon: icecream,
     button: {
       label: '1 Mês de Serviço',
-      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote básico.')}`,
+      link: `https://wa.me/+258863306137?text=${encodeURI('Saudações, gostaria de obter o pacote básico.')}`,
     },
   },
   {
@@ -294,7 +294,7 @@ export const pricing = [
     icon: donut,
     button: {
       label: '6 Meses de Serviço',
-      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote premium.')}`
+      link: `https://wa.me/+258863306137?text=${encodeURI('Saudações, gostaria de obter o pacote premium.')}`
     },
   },
   {
@@ -307,7 +307,7 @@ export const pricing = [
     icon: pizza,
     button: {
       label: '1 Ano de Serviço',
-      link: `https://wa.me/+258847005571?text=${encodeURI('Saudações, gostaria de obter o pacote empresarial.')}`
+      link: `https://wa.me/+258863306137?text=${encodeURI('Saudações, gostaria de obter o pacote empresarial.')}`
     },
   },
 ];
