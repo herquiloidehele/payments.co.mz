@@ -290,7 +290,7 @@ export const pricing = [
     currencySymbol: 'MZN',
     isActive: true,
     title: 'Pacote Premium',
-    desc: 'Para loja médias e querem crescer mais rápido.',
+    desc: 'Para lojas médias e querem crescer mais rápido.',
     icon: donut,
     button: {
       label: '6 Meses de Serviço',
@@ -303,7 +303,7 @@ export const pricing = [
     currencySymbol: 'MT',
     isActive: false,
     title: 'Pacote Empresarial',
-    desc: 'Para lojas grandes e quer expandir.',
+    desc: 'Para lojas grandes e querem expandir.',
     icon: pizza,
     button: {
       label: '1 Ano de Serviço',
