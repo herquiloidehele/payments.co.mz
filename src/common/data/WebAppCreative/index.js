@@ -290,7 +290,7 @@ export const pricing = [
     currencySymbol: 'MZN',
     isActive: true,
     title: 'Pacote Premium',
-    desc: 'Para loja mêdias e quer crescer mais rápido.',
+    desc: 'Para loja médias e querem crescer mais rápido.',
     icon: donut,
     button: {
       label: '6 Meses de Serviço',
